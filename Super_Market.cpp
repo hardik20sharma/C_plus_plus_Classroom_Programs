@@ -9,10 +9,10 @@ protected:
 	string name;
 	
 public:
-	Product() : barcode(00000), name("Unnamed") { }		
-	Product(long bar, string na) : barcode(bar), name(na) {	}	
+	Product() : barcode(00000), name("Unnamed") {}
+	Product(long bar, string na) : barcode(bar), name(na) {}
 		
-	long getCode() 	
+	long getCode()
 		{ return barcode; }
 	
 	void printer()
@@ -28,7 +28,7 @@ private:
 	float price;
 
 public:
-	PrePackedFood() : price(0.0), Product() { }
+	PrePackedFood() : price(0.0), Product() {}
 	
 	void enter_data(float pri, long barcode, string name)
 	{
