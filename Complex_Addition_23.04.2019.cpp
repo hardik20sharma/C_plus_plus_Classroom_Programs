@@ -7,7 +7,7 @@ private:
 	int x, y;
 
 public:
-	Complex() {	}
+	Complex() {}
 	Complex(int a, int b) : x(a), y(b) { }
 	
 	void addComplex(Complex a, Complex b)
