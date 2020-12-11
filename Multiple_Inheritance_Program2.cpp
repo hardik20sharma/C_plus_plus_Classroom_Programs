@@ -8,14 +8,16 @@ class A
     private:
         int a;
     public:
-        void get_a(int val_a){
+        void get_a(int val_a)
+        {
             a=val_a;
         }
-        void put_a(void){
+        void put_a(void)
+        {
             cout <<"value of a: " << a << endl;
         }
 };
- 
+
 //Base Class - class B
 class B
 {
