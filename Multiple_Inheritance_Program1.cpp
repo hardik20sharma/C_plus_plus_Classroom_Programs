@@ -7,7 +7,8 @@ class A
  	int x;
  	void getx()
     {
- 	    cout << "enter value of x: "; cin >> x;
+ 	    cout << "enter value of x: ";
+        cin >> x;
     }
 };
 class B
@@ -16,7 +17,8 @@ class B
  	int y;
  	void gety()
  	{
- 	    cout << "enter value of y: "; cin >> y;
+ 	    cout << "enter value of y: ";
+        cin >> y;
  	}
 };
 class C : public A, public B   //C is derived from class A and class B
